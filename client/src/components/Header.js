@@ -13,7 +13,7 @@ const Header = () => {
       <Link to="/">
         <div className="flex items-center gap-3 pointer">
           <h1 className="text-2xl font-bold tracking-wider text-white">
-            ReactPen
+            CYS
           </h1>
         </div>
       </Link>
