@@ -28,8 +28,8 @@ app.post("/api/submission", async (req, res) => {
       ...req.body,
       language,
       versionIndex,
-      clientId: process.env.JDOODLE_CLIENT_ID,
-      clientSecret: process.env.JDOODLE_CLIENT_SECRET,
+      clientId:"df028803f0141f1e74b87a3c2ca7210a",
+      clientSecret: "e51a90aa96323038fed06487d59fa622685535335091ff3dee19b17f8d8c8c6",
     };
 
     const resp = await fetch("https://api.jdoodle.com/v1/execute", {
